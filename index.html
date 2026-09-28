@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#097bff">
+  <meta name="description" content="X-Lab Camp，一封从训练营开始时寄来的信。">
+  <title>给此刻的你 · X-Lab Camp</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="space" aria-hidden="true"></div>
+  <div class="shell">
+    <header><a class="brand" href="./">X-Lab Camp<span class="brand-star">✳</span></a><span class="edition">一封时间来信</span></header>
+    <main>
+      <section id="envelope-screen" class="screen active" aria-labelledby="opening-title">
+        <div class="intro"><p class="eyebrow">从出发的那一天，寄往此刻</p><h1 id="opening-title">亲爱的，<br>现在的你。</h1><p class="subtitle">还记得刚来到这里时，<br>你写给自己的那封信吗？</p></div>
+        <button class="envelope" id="open-letter" aria-label="打开写给自己的信">
+          <span class="letter-peek">致训练营结束时的自己</span>
+          <span class="envelope-back"></span>
+          <span class="envelope-front"></span>
+          <span class="flap"></span>
+          <span class="address"><span>To</span>训练营结束时的自己</span>
+          <span class="postmark">X-Lab<br><small>时光邮局</small></span>
+          <span class="seal">✳</span>
+        </button>
+        <p class="open-hint">轻点信封</p>
+        <div class="step-dots" role="img" aria-label="第 1 步，共 4 步"><span class="current"></span><span></span><span></span><span></span></div>
+      </section>
+      <section id="letter-screen" class="screen" hidden aria-labelledby="letter-title">
+        <div class="page-heading"><p class="eyebrow">那些出发时的心愿</p><h2 id="letter-title" tabindex="-1">和那时的自己，<br>再见一面。</h2></div>
+        <div class="card-stack">
+        <article class="paper" id="card">
+          <div class="paper-top"><span>X-Lab Camp</span><span class="recipient-name"></span></div>
+          <div class="demo-card"><span class="demo-label">卡片展示示意</span><h3>亲爱的自己：</h3><p>这里将放入你在训练营开始时<br>亲手写下的那张卡片。</p><div class="writing-lines" aria-hidden="true"></div><p class="paper-sign">—— 出发时的你</p></div>
+        </article>
+        </div>
+        <div class="letter-actions">
+        <button class="primary" id="to-timeline">一起回看这段旅程<span aria-hidden="true">↗</span></button>
+        <button class="text-button" id="back-envelope">返回信封</button>
+        </div>
+        <div class="step-dots" role="img" aria-label="第 2 步，共 4 步"><span></span><span class="current"></span><span></span><span></span></div>
+      </section>
+      <section id="timeline-screen" class="screen" hidden aria-labelledby="timeline-title">
+        <div class="page-heading"><p class="eyebrow">从相遇，到一起探索</p><h2 id="timeline-title" tabindex="-1">原来，我们已经<br>一起走了这么远。</h2></div>
+        <ol class="timeline">
+          <li><span class="timeline-date">04.12</span><div><h3>故事，从这里开始</h3><p class="timeline-subtitle"><strong>跨学科训练营正式开启</strong></p><p>第一次全员大会，第一次见到这一届的彼此。<br>从这一天起，我们有了一个共同的名字：X-Lab 跨学科训练营营员。</p></div></li>
+          <li><span class="timeline-date">04.12</span><div><h3>第一次内训</h3><p class="timeline-subtitle"><strong>先认识世界，也先认识自己</strong></p><p>商业模式内训正式开启，顺便收到了第一份灵魂作业——个人说明书。<br>在开始做项目之前，我们先试着回答：<strong>“我是谁，我能做什么，我想和怎样的人一起做事？”</strong></p></div></li>
+          <li><span class="timeline-date">04.16</span><div><h3>第一期喇叭茶话会开启</h3><p class="timeline-subtitle"><strong>大小喇叭，第一次开麦</strong></p><p>话过去、话现在，也话未来。</p></div></li>
+          <li><span class="timeline-date">04.29</span><div><h3>第一次小组见面会</h3><p class="timeline-subtitle"><strong>网友奔现：组员和 Mentor 终于见面了</strong></p><p>从群聊头像走进现实，第一次和自己的组员、Mentor 面对面。<br>故事的主角开始从“大家”，慢慢变成“我们”。</p></div></li>
+          <li><span class="timeline-date">05.01</span><div><h3>FM 20.26・喇叭电台开启</h3><p class="timeline-subtitle"><strong>今晚，听见另一种认识你的方式</strong></p><p>在一条条晚安短信里，我们慢慢记住彼此。</p></div></li>
+          <li><span class="timeline-date">05.02</span><div><h3>营销内训</h3><p class="timeline-subtitle"><strong>第一次认真思考怎么让别人愿意听你说</strong></p><p>产品之外，还有表达；想法之外，还有传播。</p></div></li>
+          <li><span class="timeline-date">05.21</span><div><h3>咨询内训</h3><p class="timeline-subtitle"><strong>什么 ESG？没关系，我们现场学</strong></p><p>第一次接触咨询方法与 ESG 议题，<br>从“这是什么”到“好像有点懂了又好像还是不太懂”</p></div></li>
+          <li><span class="timeline-date">06.01</span><div><h3>运营营员第二次大例会</h3><p class="timeline-subtitle"><strong>兔子姐姐，你是我女神</strong></p><p>第二次大例会如期而至。</p></div></li>
+          <li><span class="timeline-date">06.05</span><div><h3>「讲好一个故事」采访内训</h3><p class="timeline-subtitle"><strong>这一次，我们一起去听见 X-Lab</strong></p><p>学着提问，学着倾听，也学着把一个人的故事讲给更多人听。<br>X-Lab 不再只是我们参与的地方，也成为了值得被记录的对象。</p></div></li>
+          <li><span class="timeline-date">07.06</span><div><h3>暑期训练营副本开启</h3><p class="timeline-subtitle"><strong>主线任务加载中：夏天正式开打</strong></p><p>更密集的任务、更高频的协作、更真实的项目推进。<br>如果说此前还是热身，那么从这里开始，副本正式进入高强度模式。</p></div></li>
+          <li><span class="timeline-date">07.15</span><div><h3>暑期训练营正式结束</h3><p class="timeline-subtitle"><strong>十天副本结束，但故事还没结束</strong></p><p>短暂、密集、混乱、热烈。<br>项目结束了，留下来的不只成果，还有那些一起熬过、改过、笑过的瞬间。</p></div></li>
+          <li><span class="timeline-date">09.28</span><div><h3>训练营总结会</h3><p class="timeline-subtitle"><strong>最后一站，也是重新出发的一站</strong></p><p>从 4 月走到 9 月，从陌生人走到并肩工作的人。<br>今天，我们一起回头看看这一路发生过什么，也给这段训练营正式画上一个句号。<br><br><strong>而句号之后，是下一段故事。</strong></p></div></li>
+        </ol>
+        <div class="photo-deck" id="photo-deck" role="group" aria-label="训练营回忆照片">
+          <figure class="memory-photo" style="--left:6%;--top:7%;--width:43%;--angle:-10deg;--delay:0.00s;z-index:1"><img src="./assets/memories/05.jpg" alt="欢迎营员的训练营黑板" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:47%;--top:13%;--width:45%;--angle:11deg;--delay:0.22s;z-index:2"><img src="./assets/memories/02.jpg" alt="小组交流合影" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:22%;--top:24%;--width:48%;--angle:-5deg;--delay:0.44s;z-index:3"><img src="./assets/memories/04.jpg" alt="训练营里的欢乐瞬间" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:4%;--top:34%;--width:39%;--angle:-14deg;--delay:0.66s;z-index:4"><img src="./assets/memories/06.jpg" alt="线上会议中的趣味瞬间" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:55%;--top:36%;--width:38%;--angle:12deg;--delay:0.88s;z-index:5"><img src="./assets/memories/07.jpg" alt="线上采访交流合影" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:26%;--top:44%;--width:45%;--angle:6deg;--delay:1.10s;z-index:6"><img src="./assets/memories/08.jpg" alt="X-Lab 主题蛋糕" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:5%;--top:55%;--width:43%;--angle:-9deg;--delay:1.32s;z-index:7"><img src="./assets/memories/09.jpg" alt="一起分享食物的课间" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:52%;--top:58%;--width:40%;--angle:15deg;--delay:1.54s;z-index:8"><img src="./assets/memories/10.jpg" alt="围桌讨论的小组合影" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:13%;--top:67%;--width:46%;--angle:-6deg;--delay:1.76s;z-index:9"><img src="./assets/memories/01.jpg" alt="训练营全员合影" decoding="async"></figure>
+          <figure class="memory-photo" style="--left:37%;--top:70%;--width:49%;--angle:8deg;--delay:1.98s;z-index:10"><img src="./assets/memories/03.jpg" alt="暑期训练营结营合影" decoding="async"></figure>
+        </div>
+        <button class="primary" id="to-ending">还有几句话，想对你说<span aria-hidden="true">↗</span></button>
+        <button class="text-button" id="back-letter">返回来信</button>
+        <div class="step-dots" role="img" aria-label="第 3 步，共 4 步"><span></span><span></span><span class="current"></span><span></span></div>
+      </section>
+      <section id="ending-screen" class="screen" hidden aria-labelledby="ending-title">
+        <div class="starlight" aria-hidden="true"><span style="--x:8%;--y:8%;--delay:0.00s;--duration:3.0s;--size:2px"></span><span style="--x:80%;--y:5%;--delay:-0.47s;--duration:3.7s;--size:3px"></span><span style="--x:91%;--y:19%;--delay:-0.94s;--duration:4.4s;--size:4px"></span><span style="--x:57%;--y:13%;--delay:-1.41s;--duration:5.1s;--size:2px"></span><span style="--x:16%;--y:31%;--delay:-1.88s;--duration:3.0s;--size:3px"></span><span style="--x:75%;--y:34%;--delay:-2.35s;--duration:3.7s;--size:4px"></span><span style="--x:94%;--y:46%;--delay:-2.82s;--duration:4.4s;--size:2px"></span><span style="--x:5%;--y:56%;--delay:-3.29s;--duration:5.1s;--size:3px"></span><span style="--x:62%;--y:57%;--delay:-3.76s;--duration:3.0s;--size:4px"></span><span style="--x:86%;--y:68%;--delay:-4.23s;--duration:3.7s;--size:2px"></span><span style="--x:26%;--y:73%;--delay:-4.70s;--duration:4.4s;--size:3px"></span><span style="--x:48%;--y:83%;--delay:-5.17s;--duration:5.1s;--size:4px"></span><span style="--x:92%;--y:89%;--delay:-5.64s;--duration:3.0s;--size:2px"></span><span style="--x:13%;--y:91%;--delay:-6.11s;--duration:3.7s;--size:3px"></span><span style="--x:38%;--y:42%;--delay:-6.58s;--duration:4.4s;--size:4px"></span><span style="--x:66%;--y:93%;--delay:-7.05s;--duration:5.1s;--size:2px"></span></div>
+        <div class="ending-content"><span class="end-star" aria-hidden="true">✳</span><p class="eyebrow">写给每一个勇敢探索的你</p>
+          <h2 id="ending-title" tabindex="-1" aria-label="看似无用的探索改变了一切，正如遥远的星星改变了你。"><span aria-hidden="true"><span class="typed-char" style="--type-delay:0.250s">看</span><span class="typed-char" style="--type-delay:0.345s">似</span><span class="typed-char" style="--type-delay:0.440s">无</span><span class="typed-char" style="--type-delay:0.535s">用</span><span class="typed-char" style="--type-delay:0.630s">的</span><span class="typed-char" style="--type-delay:0.725s">探</span><span class="typed-char" style="--type-delay:0.820s">索</span><br><span class="typed-char" style="--type-delay:0.915s">改</span><span class="typed-char" style="--type-delay:1.010s">变</span><span class="typed-char" style="--type-delay:1.105s">了</span><span class="typed-char" style="--type-delay:1.200s">一</span><span class="typed-char" style="--type-delay:1.295s">切</span><span class="typed-char" style="--type-delay:1.390s">，</span><br><span class="typed-char" style="--type-delay:1.485s">正</span><span class="typed-char" style="--type-delay:1.580s">如</span><span class="typed-char" style="--type-delay:1.675s">遥</span><span class="typed-char" style="--type-delay:1.770s">远</span><span class="typed-char" style="--type-delay:1.865s">的</span><span class="typed-char" style="--type-delay:1.960s">星</span><span class="typed-char" style="--type-delay:2.055s">星</span><br><span class="typed-char" style="--type-delay:2.150s">改</span><span class="typed-char" style="--type-delay:2.245s">变</span><span class="typed-char" style="--type-delay:2.340s">了</span><span class="typed-char" style="--type-delay:2.435s">你</span><span class="typed-char" style="--type-delay:2.530s">。</span></span></h2>
+          <p class="goodbye">感谢相遇，下次见！</p>
+        </div>
+        <div class="ending-bottom">
+          <p class="signature">——浙江大学启真交叉学科创新创业实验室运营团队敬上</p>
+          <button class="replay" id="read-again">再读一遍来信 <span aria-hidden="true">↺</span></button>
+        </div>
+        <div class="step-dots" role="img" aria-label="第 4 步，共 4 步"><span></span><span></span><span></span><span class="current"></span></div>
+      </section>
+    </main>
+    <footer><img class="lab-logo" src="./assets/lab-logo-white.png" alt="浙江大学启真交叉学科创新创业实验室" width="2981" height="365"></footer>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
